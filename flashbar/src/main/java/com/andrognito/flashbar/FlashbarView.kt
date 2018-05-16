@@ -41,7 +41,7 @@ import kotlinx.android.synthetic.main.flash_bar_view.view.*
  * It can either be present at the top or at the bottom of the screen. It will always consume touch
  * events and respond as necessary.
  */
-internal class FlashbarView(context: Context) : LinearLayout(context) {
+class FlashbarView(context: Context) : LinearLayout(context) {
 
     private val TOP_COMPENSATION_MARGIN = resources.getDimension(R.dimen.fb_top_compensation_margin).toInt()
     private val BOTTOM_COMPENSATION_MARGIN = resources.getDimension(R.dimen.fb_bottom_compensation_margin).toInt()
